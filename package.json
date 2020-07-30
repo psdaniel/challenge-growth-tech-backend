@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alcimerio Rangel <alcimerioj@id.uff.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpileOnly --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
